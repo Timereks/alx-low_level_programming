@@ -2,20 +2,13 @@
 
 /**
  * _abs - computs absolute value of an integer
- * @int: integer
- * Return: 0
+ * @n: the int in question
+ * Return: abs value of int
  */
-int _abs(int)
+int _abs(int n)
 {
-	int e;
-
-	e = _abs(-1);
-		_putchar("%d\n", e);
-	e = _abs(0);
-		_putchars("%d\n", e);
-	e = _abs(1);
-		_putchar("%d\n", e);
-	e = _abs(-98);
-		_putchar("%d\n", e);
-		return (0);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
