@@ -4,11 +4,16 @@
 /**
  * _strlen - returns length of a string
  * @s: string length
- * Return: 0
+ * Return: length
  */
 int _strlen(char *s)
 {
-	int s;
+	int i;
+	int length = 0;
 
-	strlen(*s);
+	for (i = 0; s[i], != '\0'; i++)
+	{
+		length++;
+	}
+	return (length);
 }
