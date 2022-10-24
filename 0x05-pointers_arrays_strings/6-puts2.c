@@ -3,7 +3,7 @@
 /**
  * puts2 - print every other character of a string
  * @str: string to be printed
- * Return: 0
+ * Return:success
  */
 void puts2(char *str)
 {
