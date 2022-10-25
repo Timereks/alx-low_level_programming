@@ -3,11 +3,11 @@
 /**
  * puts2 - print every other character of a string
  * @str: string to be printed
- * Return:succes
+ * Return:print
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
 	for (; str[i] != '\0'; i++)
 	{
